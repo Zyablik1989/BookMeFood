@@ -1,0 +1,300 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="EditingModeRadioButtonLabel" xml:space="preserve">
+    <value>Редактировать</value>
+  </data>
+  <data name="ExpanderLabel" xml:space="preserve">
+    <value>Свернуть</value>
+  </data>
+  <data name="JoiningModeRadioButtonLabel" xml:space="preserve">
+    <value>Подключиться</value>
+  </data>
+  <data name="LanguageFieldLabel" xml:space="preserve">
+    <value>Язык</value>
+  </data>
+  <data name="LeaderAddressFieldLabel" xml:space="preserve">
+    <value>Комп. или IP лидера</value>
+  </data>
+  <data name="LeadModeRadioButtonLabel" xml:space="preserve">
+    <value>Организовать</value>
+  </data>
+  <data name="PortFieldLabel" xml:space="preserve">
+    <value>Порт (необ.)</value>
+  </data>
+  <data name="YourNameFieldLabel" xml:space="preserve">
+    <value>Ваше имя</value>
+  </data>
+  <data name="Attention" xml:space="preserve">
+    <value>Внимание</value>
+  </data>
+  <data name="Error" xml:space="preserve">
+    <value>Ошибка</value>
+  </data>
+  <data name="Errorwhilestoptrying" xml:space="preserve">
+    <value>Ошибка во время попытки </value>
+  </data>
+  <data name="FoundworkingWindowsFirewallServiceWouldyouliketostopit" xml:space="preserve">
+    <value>Обнаружен запущеный Брендмауэр Windows. Вы хотите его остановить?</value>
+  </data>
+  <data name="Insufficientrightstolaunchaserver" xml:space="preserve">
+    <value>Недостаточно прав для организации Лобби.</value>
+  </data>
+  <data name="Insufficientrightstostoptheservice" xml:space="preserve">
+    <value>Недостаточно прав, чтобы остановить службу.</value>
+  </data>
+  <data name="Itiscalled" xml:space="preserve">
+    <value>Он называется: </value>
+  </data>
+  <data name="or" xml:space="preserve">
+    <value> или </value>
+  </data>
+  <data name="Question" xml:space="preserve">
+    <value>Вопрос</value>
+  </data>
+  <data name="Success" xml:space="preserve">
+    <value>Успешно</value>
+  </data>
+  <data name="Sum" xml:space="preserve">
+    <value>Сумма</value>
+  </data>
+  <data name="Sumdiscounted" xml:space="preserve">
+    <value>Сумма с учётом скидки</value>
+  </data>
+  <data name="tbChatMessageSend" xml:space="preserve">
+    <value>Впишите сообщение для чата</value>
+  </data>
+  <data name="tbServersListFieldLabel" xml:space="preserve">
+    <value>Лобби</value>
+  </data>
+  <data name="Thehostnameandportarealreadyinuse" xml:space="preserve">
+    <value>Имя хоста и порт сейчас используются.</value>
+  </data>
+  <data name="ThehostnameandportarealreadyinuseWaitforalittle" xml:space="preserve">
+    <value>Имя хоста и порт пока используются. Подождите немного.</value>
+  </data>
+  <data name="Theotherusersoughttolookfor" xml:space="preserve">
+    <value>Остальным участникам нужно искать: </value>
+  </data>
+  <data name="TolaunchyourownserveryouneedtoRunthisappasAdministrator" xml:space="preserve">
+    <value>Чтобы организовать собственное Лобби, вам нужно запустить программу от имени Администратора.</value>
+  </data>
+  <data name="TostoptheWindowsFirewallServiceyoumustRunthisappasAdministrator" xml:space="preserve">
+    <value>Чтобы остановить Брендмауэр Windows вам нужно перезапустить программу с правами Администратора.</value>
+  </data>
+  <data name="TOTALSUM" xml:space="preserve">
+    <value>СУММАРНЫЙ ИТОГ</value>
+  </data>
+  <data name="TOTALSUMDISCOUNTED" xml:space="preserve">
+    <value>СУММАРНЫЙ ИТОГ С УЧЁТОМ СКИДКИ</value>
+  </data>
+  <data name="Tryingtostop" xml:space="preserve">
+    <value>Попытка остановки</value>
+  </data>
+  <data name="WindowsFirewallServicehasbeenstopped" xml:space="preserve">
+    <value>Остановлен Брендмауэр Windows.</value>
+  </data>
+  <data name="Youmayencountersomeproblemswhensearchingforotherpeoplesservers" xml:space="preserve">
+    <value>У вас могут возникать сложности при подключении к другим людям.</value>
+  </data>
+  <data name="Yourserverisalreadystarted" xml:space="preserve">
+    <value>Ваш сервер уже запущен.</value>
+  </data>
+  <data name="Anerroroccuredwhiletryingtoconnect" xml:space="preserve">
+    <value>При попытке подключения, возникла ошибка.</value>
+  </data>
+  <data name="Changemyorder" xml:space="preserve">
+    <value>Редактировать заказ</value>
+  </data>
+  <data name="Commonerror" xml:space="preserve">
+    <value>Общая ошибка</value>
+  </data>
+  <data name="Connectedto" xml:space="preserve">
+    <value>Подключён к </value>
+  </data>
+  <data name="COPYTHIS" xml:space="preserve">
+    <value>СКОПИРОВАТЬ</value>
+  </data>
+  <data name="DesignedandProgrammedby" xml:space="preserve">
+    <value>Дизайн и Разработка:</value>
+  </data>
+  <data name="Disconnected" xml:space="preserve">
+    <value>Отключён</value>
+  </data>
+  <data name="Discount" xml:space="preserve">
+    <value>Скидка</value>
+  </data>
+  <data name="ErrorappearedwhenyouvetriedtosenduserdataTryagain" xml:space="preserve">
+    <value>При попытке отправки данных пользователя, возникла ошибка. Попробуйте ещё раз</value>
+  </data>
+  <data name="Myorderisdone" xml:space="preserve">
+    <value>Мой заказ готов</value>
+  </data>
+  <data name="Myself" xml:space="preserve">
+    <value>Самому себе</value>
+  </data>
+  <data name="NoDomainName" xml:space="preserve">
+    <value>Нет Доменного имени</value>
+  </data>
+  <data name="NotallusersarereadytocalculatetheirordersContinueforcibly" xml:space="preserve">
+    <value>Не все участники готовы к подсчёту заказов. Начать подсчёт принудительно?</value>
+  </data>
+  <data name="outof" xml:space="preserve">
+    <value> из </value>
+  </data>
+  <data name="Participantsreadiness" xml:space="preserve">
+    <value>Готовность участников: </value>
+  </data>
+  <data name="Pickadeliverer" xml:space="preserve">
+    <value>Выбрать магазин</value>
+  </data>
+  <data name="PICKORDERPOSITIONS" xml:space="preserve">
+    <value>СОБЕРИТЕ СВОЙ ЗАКАЗ</value>
+  </data>
+  <data name="Search" xml:space="preserve">
+    <value>Поиск</value>
+  </data>
+  <data name="ServerStatusAnorderswerecalculated" xml:space="preserve">
+    <value>Статус Лобби: Заказы были посчитаны</value>
+  </data>
+  <data name="ServerStatusGatheringparticipantsreadinessinfo" xml:space="preserve">
+    <value>Статус Лобби: Сверка готовности участников</value>
+  </data>
+  <data name="ServerStatusPickinganitemstoorder" xml:space="preserve">
+    <value>Статус Лобби: Выбор позиций на заказ</value>
+  </data>
+  <data name="ServerStatusSelectingStore" xml:space="preserve">
+    <value>Статус Лобби: Выбор магазина</value>
+  </data>
+  <data name="Starttocalculate" xml:space="preserve">
+    <value>Начать подсчёт</value>
+  </data>
+  <data name="STORESLISTpickone" xml:space="preserve">
+    <value>СПИСОК МАГАЗИНОВ</value>
+  </data>
+  <data name="Thedomainnameyouhaveusedisnotavailableinthisnetwork" xml:space="preserve">
+    <value>Доменное имя, которое вы используете, не доступно в этой сети.</value>
+  </data>
+  <data name="Timeout" xml:space="preserve">
+    <value>Таймаут</value>
+  </data>
+  <data name="WaitingforLeader" xml:space="preserve">
+    <value>Ожидаем Лидера...</value>
+  </data>
+</root>

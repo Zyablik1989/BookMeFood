@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema xmlns:tns="http://schemas.datacontract.org/2004/07/BookMyFood.ServerFunction" elementFormDefault="qualified" targetNamespace="http://schemas.datacontract.org/2004/07/BookMyFood.ServerFunction" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:import schemaLocation="http://localhost:666/?xsd=xsd3" namespace="http://schemas.datacontract.org/2004/07/BookMyFood.Model" />
+  <xs:import schemaLocation="http://localhost:666/?xsd=xsd2" namespace="http://schemas.datacontract.org/2004/07/BookMyFoodWCF" />
+  <xs:import schemaLocation="http://localhost:666/?xsd=xsd1" namespace="http://schemas.microsoft.com/2003/10/Serialization/" />
+  <xs:complexType name="ServerStatus">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="Discount" type="xs:double" />
+      <xs:element xmlns:q1="http://schemas.datacontract.org/2004/07/BookMyFood.Model" minOccurs="0" name="ServerDeliverer" nillable="true" type="q1:Deliverer" />
+      <xs:element minOccurs="0" name="ServerState" type="tns:ServerStates" />
+      <xs:element xmlns:q2="http://schemas.datacontract.org/2004/07/BookMyFoodWCF" minOccurs="0" name="Users" nillable="true" type="q2:ArrayOfServerUser" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="ServerStatus" nillable="true" type="tns:ServerStatus" />
+  <xs:simpleType name="ServerStates">
+    <xs:restriction base="xs:string">
+      <xs:enumeration value="DelivererSet">
+        <xs:annotation>
+          <xs:appinfo>
+            <EnumerationValue xmlns="http://schemas.microsoft.com/2003/10/Serialization/">1</EnumerationValue>
+          </xs:appinfo>
+        </xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="OrdersSet">
+        <xs:annotation>
+          <xs:appinfo>
+            <EnumerationValue xmlns="http://schemas.microsoft.com/2003/10/Serialization/">2</EnumerationValue>
+          </xs:appinfo>
+        </xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="ReadyToCalculate">
+        <xs:annotation>
+          <xs:appinfo>
+            <EnumerationValue xmlns="http://schemas.microsoft.com/2003/10/Serialization/">3</EnumerationValue>
+          </xs:appinfo>
+        </xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="Verifying">
+        <xs:annotation>
+          <xs:appinfo>
+            <EnumerationValue xmlns="http://schemas.microsoft.com/2003/10/Serialization/">4</EnumerationValue>
+          </xs:appinfo>
+        </xs:annotation>
+      </xs:enumeration>
+    </xs:restriction>
+  </xs:simpleType>
+  <xs:element name="ServerStates" nillable="true" type="tns:ServerStates" />
+  <xs:complexType name="LeaderServer">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="Port" type="xs:unsignedInt" />
+      <xs:element minOccurs="0" name="ServerDNSName" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="ServerIP" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="ServerState" type="tns:ServerStates" />
+      <xs:element minOccurs="0" name="VisibleName" nillable="true" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="LeaderServer" nillable="true" type="tns:LeaderServer" />
+</xs:schema>

@@ -1,0 +1,6 @@
+﻿https://reqres.in/ - Генерация типовых JSON
+http://json2csharp.com/ - Превращение JSON в C# классы.
+https://app.quicktype.io/ - Превращение JSON в C# классы.
+GetRequest("https://jsonplaceholder.typicode.com/posts/42");
+PostRequest("http://ptsv2.com/t/crvra-1538685494/post");
+C# Offscreen Браузер на фоне.

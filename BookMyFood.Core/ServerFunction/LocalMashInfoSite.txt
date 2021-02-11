@@ -1,0 +1,3 @@
+﻿https://www.morgantechspace.com/2014/04/Get-List-of-Network-Computer-Names-in-C-Sharp.html#Get-Network-PC-Names
+https://stackoverflow.com/questions/8808052/c-sharp-getting-proxy-settings-from-internet-explorer
+https://sourceforge.net/projects/gong-shell/postdownload

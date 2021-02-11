@@ -1,0 +1,16 @@
+﻿<Window x:Class="BookMyFood.WPF.Manual.StartupManual"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:BookMyFood.WPF.Manual"
+
+        xmlns:materialDesign="http://materialdesigninxaml.net/winfx/xaml/themes"
+        mc:Ignorable="d"
+        Title="StartupManual" Height="600" Width="700" ResizeMode="NoResize" WindowStartupLocation="CenterScreen" Background="Transparent" WindowStyle="None" AllowsTransparency="True">
+    <Grid>
+        <Image Stretch="Fill" x:Name="manualpng" Source="Resources/Manual-En.png" HorizontalAlignment="Stretch" VerticalAlignment="Stretch"   />
+        <Button Content="OK" HorizontalAlignment="Center"   Margin="0,560,0,0" Width="75" Click="Button_Click"/>
+
+    </Grid>
+</Window>

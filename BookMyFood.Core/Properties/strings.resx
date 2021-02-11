@@ -1,0 +1,300 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="EditingModeRadioButtonLabel" xml:space="preserve">
+    <value>Edit parameters</value>
+  </data>
+  <data name="ExpanderLabel" xml:space="preserve">
+    <value>Collapse</value>
+  </data>
+  <data name="JoiningModeRadioButtonLabel" xml:space="preserve">
+    <value>Tempahan</value>
+  </data>
+  <data name="LanguageFieldLabel" xml:space="preserve">
+    <value>Language</value>
+  </data>
+  <data name="LeaderAddressFieldLabel" xml:space="preserve">
+    <value>Leader comp. or IP</value>
+  </data>
+  <data name="LeadModeRadioButtonLabel" xml:space="preserve">
+    <value>Start to book</value>
+  </data>
+  <data name="PortFieldLabel" xml:space="preserve">
+    <value>Port (opt.)</value>
+  </data>
+  <data name="YourNameFieldLabel" xml:space="preserve">
+    <value>Your name</value>
+  </data>
+  <data name="Attention" xml:space="preserve">
+    <value>Attention</value>
+  </data>
+  <data name="Error" xml:space="preserve">
+    <value>Error</value>
+  </data>
+  <data name="Errorwhilestoptrying" xml:space="preserve">
+    <value>Error while stop trying:</value>
+  </data>
+  <data name="FoundworkingWindowsFirewallServiceWouldyouliketostopit" xml:space="preserve">
+    <value>Found working Windows Firewall Service. Would you like to stop it?</value>
+  </data>
+  <data name="Insufficientrightstolaunchaserver" xml:space="preserve">
+    <value>Insufficient rights to launch a server.</value>
+  </data>
+  <data name="Insufficientrightstostoptheservice" xml:space="preserve">
+    <value>Insufficient rights to stop the service.</value>
+  </data>
+  <data name="Itiscalled" xml:space="preserve">
+    <value>It is called:</value>
+  </data>
+  <data name="or" xml:space="preserve">
+    <value> or </value>
+  </data>
+  <data name="Question" xml:space="preserve">
+    <value>Question</value>
+  </data>
+  <data name="Success" xml:space="preserve">
+    <value>Success</value>
+  </data>
+  <data name="Sum" xml:space="preserve">
+    <value>Sum</value>
+  </data>
+  <data name="Sumdiscounted" xml:space="preserve">
+    <value>Sum discounted</value>
+  </data>
+  <data name="tbChatMessageSend" xml:space="preserve">
+    <value>Your message here</value>
+  </data>
+  <data name="tbServersListFieldLabel" xml:space="preserve">
+    <value>Servers</value>
+  </data>
+  <data name="Thehostnameandportarealreadyinuse" xml:space="preserve">
+    <value>The hostname and port are already in use</value>
+  </data>
+  <data name="ThehostnameandportarealreadyinuseWaitforalittle" xml:space="preserve">
+    <value>The hostname and port are already in use. Wait for a little.</value>
+  </data>
+  <data name="Theotherusersoughttolookfor" xml:space="preserve">
+    <value>The other users ought to look for:</value>
+  </data>
+  <data name="TolaunchyourownserveryouneedtoRunthisappasAdministrator" xml:space="preserve">
+    <value>To launch your own server you need to Run this app as Administrator.</value>
+  </data>
+  <data name="TostoptheWindowsFirewallServiceyoumustRunthisappasAdministrator" xml:space="preserve">
+    <value>To stop the  Windows Firewall Service you must Run this app as Administrator.</value>
+  </data>
+  <data name="TOTALSUM" xml:space="preserve">
+    <value>TOTAL SUM</value>
+  </data>
+  <data name="TOTALSUMDISCOUNTED" xml:space="preserve">
+    <value>TOTAL SUM DISCOUNTED</value>
+  </data>
+  <data name="Tryingtostop" xml:space="preserve">
+    <value>Trying to stop</value>
+  </data>
+  <data name="WindowsFirewallServicehasbeenstopped" xml:space="preserve">
+    <value>Windows Firewall Service has been stopped.</value>
+  </data>
+  <data name="Youmayencountersomeproblemswhensearchingforotherpeoplesservers" xml:space="preserve">
+    <value>You may encounter some problems when searching for other people's servers</value>
+  </data>
+  <data name="Yourserverisalreadystarted" xml:space="preserve">
+    <value>Your server is already started.</value>
+  </data>
+  <data name="Anerroroccuredwhiletryingtoconnect" xml:space="preserve">
+    <value>An error occured while trying to connect.</value>
+  </data>
+  <data name="Changemyorder" xml:space="preserve">
+    <value>Change my order</value>
+  </data>
+  <data name="Commonerror" xml:space="preserve">
+    <value>Common error</value>
+  </data>
+  <data name="Connectedto" xml:space="preserve">
+    <value>Connected to </value>
+  </data>
+  <data name="COPYTHIS" xml:space="preserve">
+    <value>COPY THIS</value>
+  </data>
+  <data name="DesignedandProgrammedby" xml:space="preserve">
+    <value>Designed and Programmed by</value>
+  </data>
+  <data name="Disconnected" xml:space="preserve">
+    <value>Disconnected</value>
+  </data>
+  <data name="Discount" xml:space="preserve">
+    <value>Discount</value>
+  </data>
+  <data name="ErrorappearedwhenyouvetriedtosenduserdataTryagain" xml:space="preserve">
+    <value>Error appeared when you've tried to send user data. Try again.</value>
+  </data>
+  <data name="Myorderisdone" xml:space="preserve">
+    <value>My order is done</value>
+  </data>
+  <data name="Myself" xml:space="preserve">
+    <value>Myself</value>
+  </data>
+  <data name="NoDomainName" xml:space="preserve">
+    <value>No Domain Name</value>
+  </data>
+  <data name="NotallusersarereadytocalculatetheirordersContinueforcibly" xml:space="preserve">
+    <value>Not all users are ready to calculate their orders. Continue forcibly?</value>
+  </data>
+  <data name="outof" xml:space="preserve">
+    <value> out of </value>
+  </data>
+  <data name="Participantsreadiness" xml:space="preserve">
+    <value>Participants readiness: </value>
+  </data>
+  <data name="Pickadeliverer" xml:space="preserve">
+    <value>Pick a deliverer</value>
+  </data>
+  <data name="PICKORDERPOSITIONS" xml:space="preserve">
+    <value>PICK YOUR ORDER POSITIONS</value>
+  </data>
+  <data name="Search" xml:space="preserve">
+    <value>Search</value>
+  </data>
+  <data name="ServerStatusAnorderswerecalculated" xml:space="preserve">
+    <value>Server Status : An orders were calculated</value>
+  </data>
+  <data name="ServerStatusGatheringparticipantsreadinessinfo" xml:space="preserve">
+    <value>Server Status : Gathering participants readiness info</value>
+  </data>
+  <data name="ServerStatusPickinganitemstoorder" xml:space="preserve">
+    <value>Server Status : Picking an items to order</value>
+  </data>
+  <data name="ServerStatusSelectingStore" xml:space="preserve">
+    <value>Server Status : Selecting Store</value>
+  </data>
+  <data name="Starttocalculate" xml:space="preserve">
+    <value>Start to calculate</value>
+  </data>
+  <data name="STORESLISTpickone" xml:space="preserve">
+    <value>STORES LIST</value>
+  </data>
+  <data name="Thedomainnameyouhaveusedisnotavailableinthisnetwork" xml:space="preserve">
+    <value>The domain name you have used is not available in this network.</value>
+  </data>
+  <data name="Timeout" xml:space="preserve">
+    <value>Timeout</value>
+  </data>
+  <data name="WaitingforLeader" xml:space="preserve">
+    <value>Waiting for Leader...</value>
+  </data>
+</root>

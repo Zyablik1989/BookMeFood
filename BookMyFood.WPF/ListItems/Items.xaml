@@ -1,0 +1,22 @@
+﻿<UserControl x:Class="BookMyFood.WPF.ListItems.Items"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:BookMyFood.WPF.ListItems"
+             mc:Ignorable="d" d:DesignWidth="560" Height="34"
+             UseLayoutRounding ="True">
+    <Grid HorizontalAlignment="Stretch" Height="Auto" >
+        <Grid.RowDefinitions >
+            <RowDefinition Height="18"/>
+            <RowDefinition Height="Auto"/>
+        </Grid.RowDefinitions>
+        <!--<StackPanel  Grid.Column="0">-->
+        <StackPanel Grid.Row="0" Orientation="Horizontal" Height="Auto" HorizontalAlignment="Stretch" >
+            <TextBlock x:Name="tbName"   Text="Дольчик" FontSize="11" Margin="5,0,0,0"/>
+            <TextBlock x:Name="tbPrice"  Text="500" FontSize="11" Margin="5,0,0,0" />
+        </StackPanel>
+        <TextBlock Grid.Row="1" Name="tbDesc" FontSize="10" Height="Auto" HorizontalAlignment="Stretch"  Text="ОПИСАНИЕ ОПИСАНИЕ ОПИСАНИЕОПИСАНИЕ ОПИСАНИЕОПИСАНИЕОПИСАНИЕ" ></TextBlock>
+        <!--</StackPanel>-->
+    </Grid>
+</UserControl>

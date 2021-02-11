@@ -1,0 +1,38 @@
+﻿<UserControl x:Class="BookMyFood.WPF.ListItems.UserItem"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:BookMyFood.WPF.ListItems"
+             mc:Ignorable="d" 
+             d:DesignHeight="32" d:DesignWidth="215">
+    <Grid>
+    <Grid ShowGridLines="False" VerticalAlignment="Top" Width="215" HorizontalAlignment="Left">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+           
+        </Grid.RowDefinitions>
+
+        <TextBlock x:Name="tbUserNameInList" Margin="37,0,0,16" TextWrapping="NoWrap" Text="TextBlock" Grid.Row="0"  FontWeight="Bold" Grid.Column="0"/>
+        <Image x:Name="Readiness" Height="16" VerticalAlignment="Top" Grid.Column="0" Grid.Row="0" Margin="19,0,180,0" />
+        <Image x:Name="imgUserLeaderOrDelete" Height="16" VerticalAlignment="Top" Grid.Column="0" Grid.Row="0" Margin="0,0,199,0" />
+            <Button Name="btCross" Width="18" Height="Auto" Grid.Row="0" Grid.Column="0" Cursor="Hand" Click="BtCross_OnClick" HorizontalAlignment="Left" VerticalAlignment="Top">
+            <StackPanel  Width="Auto" Height="Auto">
+                <Image Stretch="Fill" Margin="-14,0,0,0" x:Name="imgCross" Source="Resources/X.png" HorizontalAlignment="Center" VerticalAlignment="Center"  Width="10" />
+                <!--MouseDown="imgPlus_MouseDown"-->
+            </StackPanel>
+        </Button>
+       
+
+            <!--<Image x:Name="imgUserLeaderOrDelete" Height="16" VerticalAlignment="Top" Grid.Column="0" Grid.Row="0" Margin="0,0,199,0" MouseDown="ImgUserLeaderOrDelete_OnMouseDown"/>-->
+        
+      
+    </Grid >
+        <Grid ShowGridLines="False">
+            <Grid.RowDefinitions>
+            <RowDefinition Height="*"/>
+            </Grid.RowDefinitions>
+            <ListBox x:Name="lbOrderItems" Margin="0,16,0,0" Grid.Column="0" />
+        </Grid>
+    </Grid>
+</UserControl>
